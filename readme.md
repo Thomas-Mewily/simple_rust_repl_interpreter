@@ -44,9 +44,11 @@ Currently support :
 - If Else, 
 - and user build in function from the source language
 
-### Adding new function from Rust into the virtual machine is easy :
+### Adding new function/constant/definition from Rust into the virtual machine is easy :
 
 ```rust
+self.add("zero", 0i32);
+
 self.add("true", true);
 self.add("false", false);
 
