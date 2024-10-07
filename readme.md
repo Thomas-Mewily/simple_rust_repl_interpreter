@@ -1,5 +1,7 @@
 ### A simple interpreter in Rust.
 
+This project is a simple virtual machine for executing expression, and a tiny programming langage using the Lisp S-expression syntax style that can be parsed and used into the virtual machine.
+
 You can use it like an REPL for the moment (Read–eval–print loop) by typing expression in the terminal :
 
 ```rust
